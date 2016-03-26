@@ -1,0 +1,27 @@
+<div class="main object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
+  <div class="form-block center-block">
+    <form class="form-horizontal">
+      <div class="form-group has-feedback">
+        <label for="inputEmail" class="col-sm-3 control-label">Email Address</label>
+
+        <div class="col-sm-4">
+          <input ng-model="data.email" type="email" class="form-control" id="inputEmail" placeholder="Email Address"
+                 required>
+        </div>
+      </div>
+      <div class="form-group has-feedback">
+        <label for="inputPassword" class="col-sm-3 control-label">Password</label>
+
+        <div class="col-sm-4">
+          <input ng-model="data.password" type="password" class="form-control" id="inputPassword"
+                 placeholder="Password" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-8">
+          <button ng-click="actions.login()" type="button" class="btn btn-group btn-default btn-sm">Log In</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<nav class="navbar horizontal-menu navbar-fixed-top" ><!-- set fixed position by adding class "navbar-fixed-top" -->
+  <header-bar is_admin="is_admin ? is_admin : '' " logout="logout()" $state ="$state"></header-bar>
+</nav>
+<div class="page-container container">
+  <div class="main-content">
+    <ui-view></ui-view>
+  </div>
+</div>
+
+
+<!-- Main Footer -->
+<!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+<!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+<!-- Or class "fixed" to  always fix the footer to the end of page -->
+<footer class="main-footer sticky footer-type-1">
+  <footer></footer>
+</footer>

@@ -1,0 +1,59 @@
+.panel .panel-heading {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user-name-link{
+  text-decoration: underline !important;
+}
+.stat-live {
+  color: green;
+}
+
+.stat-online {
+  color: green;
+}
+
+.stat-offline {
+  color: grey;
+}
+
+.stat-ininializing {
+  color: blue;
+}
+
+.stat-shutting {
+  color: orange;
+}
+
+.stat-error {
+  color: red;
+}
+
+.statvalue {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #666666;
+  text-align: right;
+}
+
+.toast>div {
+   padding-left: 37px !important;
+
+}
+
+.paging{
+  cursor: pointer;
+}
+
+.reportbutton {
+  margin: 0 !important;
+}
+.sortable {  cursor: pointer;}
+.st-sort-default:before {content: '\25B1'}
+.st-sort-ascent:before {content: '\25B2'}
+.st-sort-descent:before {content: '\25BC'}
+
+.tooltip-400max .tooltip-inner {
+  max-width: 400px;
+}
